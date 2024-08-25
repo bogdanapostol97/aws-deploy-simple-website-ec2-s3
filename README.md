@@ -1,38 +1,43 @@
-#Deploying a small HTML/CSS/JS website on AWS EC2
+<h1> Deploying a small HTML/CSS/JS website on AWS EC2 </h1>
+
 This document details the deployment of a static website showcasing the 10 EHF Champions League winners on an Amazon EC2 instance.
 
-**Introduction**
+<h2> Introduction </h2>
 
 This project demonstrates hosting a simple website built with HTML, CSS, and Javascript on an AWS EC2 instance. The website serves information about the 10 handball teams to have won the prestigious EHF Champions League.
 
-Use cases
+<h2> Use cases </h2>
+
 While EC2 offers a robust solution for various web applications, this specific approach is most beneficial for:
-Simple Static Websites: Small websites with limited content updates and functionality are well-suited for EC2 due to its cost-effectiveness compared to more complex services.
-Learning and Experimentation: This deployment process is ideal for individuals or teams new to AWS to gain hands-on experience with EC2 and Linux server management.
-It's important to note that:
-EC2 requires ongoing maintenance for security updates and software installations.
-Scalability for high traffic websites can be challenging with a single EC2 instance.
+- Simple Static Websites: Small websites with limited content updates and functionality are well-suited for EC2 due to its cost-effectiveness compared to more complex services.
+- Learning and Experimentation: This deployment process is ideal for individuals or teams new to AWS to gain hands-on experience with EC2 and Linux server management.
 
-Key components of the project
-AWS EC2: A virtual server instance running a Linux operating system.
-Linux Machine: The operating environment within the EC2 instance, in this case, likely Amazon Linux 2.
-Session Manager: A secure way to connect to the EC2 instance for management and configuration.
-Apache httpd: A web server software that serves the website content.
-wget: A command-line tool for downloading files from the internet (used to download website files from GitHub).
-unzip: A command-line tool for extracting compressed files (used to unzip the downloaded website archive).
+	**It's important to note that:**
+	EC2 requires ongoing maintenance for security updates and software installations.
 
-Implementation guide
+- Scalability for high traffic websites can be challenging with a single EC2 instance.
+
+<h2> Key components of the project </h2>
+- AWS EC2: A virtual server instance running a Linux operating system.
+- Linux Machine: The operating environment within the EC2 instance, in this case, likely Amazon Linux 2.
+- Session Manager: A secure way to connect to the EC2 instance for management and configuration.
+- Apache httpd: A web server software that serves the website content.
+- wget: A command-line tool for downloading files from the internet (used to download website files from GitHub).
+- unzip: A command-line tool for extracting compressed files (used to unzip the downloaded website archive).
+
+<h2> Implementation guide </h2>
 1. Setting up the EC2 Instance:
-Launch an EC2 instance with a suitable instance type based on your expected traffic volume. The details of the EC2 are shown below:
+- Launch an EC2 instance with a suitable instance type based on your expected traffic volume. The details of the EC2 are shown below:
+
+![image](https://github.com/user-attachments/assets/9fe99e50-c0df-462f-8018-32d3dfc39823)
 
 
-Create a key pair for secure access and download the private key file. 
+- Create a key pair for secure access and download the private key file. 
 The below screenshot is taken from SSH client connectivity mode to showcase the creation of the key pair, but for this project I used the session manager.
 
-Configure a Security Group to allow inbound traffic on port 80 (HTTP).
+- Configure a Security Group to allow inbound traffic on port 80 (HTTP).
 EC2 instance networking specifications:
 	
-
 
 We edited the security rules to make sure the public IP of the instance is accessible in the browser:
 
