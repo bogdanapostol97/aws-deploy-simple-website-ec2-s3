@@ -1,4 +1,4 @@
-Deploying a small HTML/CSS/JS website on AWS EC2
+#Deploying a small HTML/CSS/JS website on AWS EC2
 This document details the deployment of a static website showcasing the 10 EHF Champions League winners on an Amazon EC2 instance.
 
 **Introduction**
