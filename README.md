@@ -2,6 +2,7 @@ Deploying a small HTML/CSS/JS website on AWS EC2
 This document details the deployment of a static website showcasing the 10 EHF Champions League winners on an Amazon EC2 instance.
 
 **Introduction**
+
 This project demonstrates hosting a simple website built with HTML, CSS, and Javascript on an AWS EC2 instance. The website serves information about the 10 handball teams to have won the prestigious EHF Champions League.
 
 Use cases
