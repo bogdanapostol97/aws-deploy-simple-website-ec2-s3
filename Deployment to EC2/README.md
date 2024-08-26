@@ -1,2 +1,2 @@
-# website-s3
-This github repository helped to deploy autimatically all the code changes in the main branch to the S3 bucket in AWS.
+# website-ec2
+This project demonstrates hosting a simple website built with HTML, CSS, and Javascript on an AWS EC2 instance. The website serves information about the 10 handball teams to have won the prestigious EHF Champions League.
