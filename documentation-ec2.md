@@ -6,7 +6,7 @@ This document details the deployment of a static website showcasing the 10 EHF C
 
 Many thanks to the guidance offered in the laboratory: https://www.youtube.com/watch?v=ri-Bn5mGcCw
 
-The documentation is customized with my implementation and how I solved the issues that have appeared along the way.
+The documentation is customized with the implementation of my own website and how I solved the issues that have appeared along the way.
 
 <h2> Introduction </h2>
 
