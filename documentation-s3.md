@@ -4,7 +4,7 @@
 
 Many thanks to the guidance offered in the AWS official documentation: https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html
 
-The documentation is customized with the implementation of my own website and how I solved the issues that have appeared along the way.
+This guide is customized with the implementation of my own website and how I solved the issues that have appeared along the way.
 
 <h2> Introduction </h2>
 
