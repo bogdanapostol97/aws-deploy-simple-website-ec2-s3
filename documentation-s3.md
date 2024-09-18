@@ -1,14 +1,21 @@
 <h1> Meme matching game deployment on AWS S3 via CodePipeline </h1>
 
+<h2> Disclaimer </h2>
+
+Many thanks to the guidance offered in the AWS official documentation: https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html
+
+The documentation is customized with the implementation of my own website and how I solved the issues that have appeared along the way.
+
 <h2> Introduction </h2>
 
 This document outlines the deployment of a HTML, CSS, and JavaScript-based meme matching game to an AWS S3 bucket using AWS CodePipeline. The game presents users with ten image pairs and challenges them to find matching pairs within a minimum number of attempts.
 
 <h2> Use cases </h2>
+
 This deployment strategy is particularly suitable for:
-- Simple Web Applications: Games or applications with static content that require frequent updates are ideal candidates for this setup.
-- Rapid Deployment: The automated pipeline ensures swift deployment of code changes, enabling quick iterations and updates.
-- Cost-Effective Hosting: S3 is a cost-efficient solution for static content, especially when considering low to moderate traffic.
+**- Simple Web Applications:** Games or applications with static content that require frequent updates are ideal candidates for this setup. <br />
+**- Rapid Deployment:** The automated pipeline ensures swift deployment of code changes, enabling quick iterations and updates. <br />
+**- Cost-Effective Hosting:** S3 is a cost-efficient solution for static content, especially when considering low to moderate traffic. <br />
 
 <h2> Key components of the project </h2>
 - GitHub: Version control repository for the game code.
