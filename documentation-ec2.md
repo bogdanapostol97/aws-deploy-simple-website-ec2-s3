@@ -2,6 +2,12 @@
 
 This document details the deployment of a static website showcasing the 10 EHF Champions League winners on an Amazon EC2 instance.
 
+<h2> Disclaimer </h2>
+
+Many thanks to the guidance offered in the laboratory: https://www.youtube.com/watch?v=ri-Bn5mGcCw
+
+The documentation is customized with my implementation and how I solved the issues that have appeared along the way.
+
 <h2> Introduction </h2>
 
 This project demonstrates hosting a simple website built with HTML, CSS, and Javascript on an AWS EC2 instance. The website serves information about the 10 handball teams to have won the prestigious EHF Champions League.
