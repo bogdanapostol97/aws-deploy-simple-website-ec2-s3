@@ -2,7 +2,7 @@
 
 <h2> Disclaimer </h2>
 
-Many thanks to the guidance offered in the AWS official documentation: https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html
+Many thanks to the guidance offered in this laboratory: https://www.youtube.com/watch?v=biYVW1TMYAU&list=PLwyXYwu8kL0wMalR9iXJIPfiMYWNFWQzx&index=8
 
 This guide is customized with the implementation of my own website and how I solved the issues that have appeared along the way.
 
