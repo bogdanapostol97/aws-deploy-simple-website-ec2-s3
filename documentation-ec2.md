@@ -104,11 +104,11 @@ The sequence of commands I described above and the outcome of each one.
 
 
 <h2> Operational excellence </h2>
-- Security: Consider implementing a firewall to further restrict inbound traffic and harden the server configuration with security best practices.
-- Reliability: Utilize automated backups and snapshots of your EC2 instance and website files for disaster recovery purposes.
-- Performance Efficiency: Monitor server performance and consider scaling up the instance type or optimizing website code for better user experience.
-- Cost Optimization: Explore options like Amazon Lightsail for static websites with predictable traffic to potentially reduce costs. Utilize EC2 Scheduled Scaling to automatically adjust resource allocation based on traffic patterns.
-- Sustainability: While EC2 offers flexibility, consider serverless options like AWS S3 buckets with static website hosting capabilities for a more energy-efficient approach for simple websites.
+- Security: Consider implementing a firewall to further restrict inbound traffic and harden the server configuration with security best practices.<\br>
+- Reliability: Utilize automated backups and snapshots of your EC2 instance and website files for disaster recovery purposes.<\br>
+- Performance Efficiency: Monitor server performance and consider scaling up the instance type or optimizing website code for better user experience.<\br>
+- Cost Optimization: Explore options like Amazon Lightsail for static websites with predictable traffic to potentially reduce costs. Utilize EC2 Scheduled Scaling to automatically adjust resource allocation based on traffic patterns.<\br>
+- Sustainability: While EC2 offers flexibility, consider serverless options like AWS S3 buckets with static website hosting capabilities for a more energy-efficient approach for simple websites.<\br>
 
 <h2> Conclusion </h2>
 
